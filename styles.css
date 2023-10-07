@@ -143,9 +143,11 @@ h1 {
 button {
   padding: 0.225rem;
   border-radius: 1.5625rem;
+  overflow: hidden;
   background-color: hsl(0, 0%, 95%);
   text-align: center;
   margin-top: auto;
+  border: none;
 }
 
 
