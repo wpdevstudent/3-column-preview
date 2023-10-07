@@ -140,7 +140,7 @@ h1 {
   padding: 1.125rem;
 }
 
-.learn-more {
+button {
   padding: 0.225rem;
   border-radius: 1.5625rem;
   background-color: hsl(0, 0%, 95%);
@@ -159,17 +159,6 @@ h1 {
     flex-direction: row; /* For desktops, display paragraphs in a row */
   }
 }
-
-
-
-/*
-Explanation:
-
-Initially, we set the flex-direction to column for the .container to display the paragraphs in a column on all screen sizes.
-We then use a media query (@media) to change the flex-direction to row for screens with a minimum width of 768px (typical for desktops).
-The paragraphs will adjust their layout accordingly based on the flex direction.
-This way, the layout will automatically adapt based on the screen size without the need for additional media queries. Adjust the styles and breakpoint as needed for your specific design requirements.
-*/
 
 
 
