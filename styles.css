@@ -86,7 +86,7 @@ p {
   font-size: 0.9375rem;
 }
 
-h2 {
+h1 {
   color: hsl(0, 0%, 95%);
 }
 
@@ -140,32 +140,23 @@ h1 {
   padding: 1.125rem;
 }
 
-button {
+a.learn-more {
   padding: 0.225rem;
   border-radius: 1.5625rem;
   overflow: hidden;
   background-color: hsl(0, 0%, 95%);
   text-align: center;
-  margin-top: auto;
+  margin: 0 auto;
   border: none;
+  text-decoration: none;
 }
 
-
-
-/*  You definitely should not use height on buttons. Make the cards/columns into flex columns and use margin top auto on the buttons so they always sit at the bottom */
-
-
+p {
+  margin-bottom: 2rem;
+}
 
 @media (min-width: 768px) {
   .container {
     flex-direction: row; /* For desktops, display paragraphs in a row */
   }
 }
-
-
-
-
-
-
-
-
