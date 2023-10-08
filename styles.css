@@ -76,6 +76,7 @@ select {
 /* End of Andy Bell's CSS Reset */
 
 body {
+  font-size: 0.9375rem;
   display: flex;
   align-items: center;
   justify-content: center; 
@@ -87,7 +88,6 @@ body {
 }
 
 p {
-  font-size: 0.9375rem;
   margin-bottom: 2rem;
 }
 
