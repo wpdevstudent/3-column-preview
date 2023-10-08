@@ -76,7 +76,11 @@ select {
 /* End of Andy Bell's CSS Reset */
 
 body {
-
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-direction: column; 
+  min-height: 100svh;
   background-color: #333;
   padding: 2rem; 
   color: hsla(0, 0%, 100%, 0.75);
@@ -89,11 +93,11 @@ p {
 
 .container {
   background-color: white;
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center; 
   flex-direction: column; 
-  min-height: 100svh;
+  min-height: 100svh; */
   padding-left: 1.125rem;
   padding-right: 1.125rem;
   padding-top: 2rem;
