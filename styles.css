@@ -150,6 +150,16 @@ a.learn-more {
   text-decoration: none;
 }
 
+.attribution {
+  text-align: center;
+  padding: 1rem;
+}
+
+.attribution a {
+  font-weight: strong;
+  font-size: 1.5rem;
+}
+
 @media (min-width: 768px) {
   .container {
     flex-direction: row; /* For desktops, display paragraphs in a row */
