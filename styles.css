@@ -110,6 +110,7 @@ h2 {
 
 .sedans {
   background-color: hsl(31, 77%, 52%);
+  border-radius: 3% 3% 0 0;
 }
 
 .sedans > .learn-more {
@@ -126,6 +127,7 @@ h2 {
 
 .luxury {
   background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 3% 3%;
 }
 
 .luxury > .learn-more {
