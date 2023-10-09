@@ -78,7 +78,7 @@ select {
 body {
   font-size: 0.9375rem;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center; 
   flex-direction: column; 
   min-height: 100svh;
