@@ -76,19 +76,16 @@ select {
 /* End of Andy Bell's CSS Reset */
 
 body {
-  font-size: 0.9375rem;
+
   display: flex;
-  align-items: start;
+  align-items: center;
   justify-content: center; 
   flex-direction: column; 
   min-height: 100svh;
+  font-size: 0.9375rem;
   background-color: #333;
   padding: 2rem; 
   color: hsla(0, 0%, 100%, 0.75);
-}
-
-p {
-  margin-bottom: 2rem;
 }
 
 .container {
@@ -98,20 +95,22 @@ p {
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-family: 'Lexend Deca', sans-serif;
-  font-weight: 400;  
+  font-weight: 400; 
+  
 }
 
 h2 {
   font-family: 'Big Shoulders Display', cursive;
   text-transform: uppercase;
-  color: hsl(0, 0%, 95%);
   font-weight: 700;
+  color: hsl(0, 0%, 95%);
   font-size: 2.5rem;
 }
 
 .sedans {
   background-color: hsl(31, 77%, 52%);
   border-radius: 3% 3% 0 0;
+  padding-top: 5rem;
 }
 
 .sedans > .learn-more {
@@ -150,18 +149,21 @@ a.learn-more {
   text-decoration: none;
 }
 
-.attribution {
-  text-align: center;
-  padding: 1rem;
+p {
+  margin-bottom: 2rem;
 }
 
-.attribution a {
-  font-weight: strong;
-  font-size: 1.5rem;
-}
-
-@media (min-width: 48rem) {
+@media (min-width: 768px) {
   .container {
+    display: flex;
     flex-direction: row; /* For desktops, display paragraphs in a row */
   }
+  
+  .sedans {
+    border-radius: 3% 0 0 3%;
+ }
+ 
+  .luxury {
+    border-radius: 0 3% 3% 0;
+ }
 }
