@@ -77,10 +77,10 @@ select {
 
 body {
 
-  /* display: flex;
+  display: flex;
   justify-content: center; 
   align-items: start;
-  flex-direction: column; */
+  flex-direction: column;
   min-height: 100svh;
   font-size: 0.9375rem;
   background-color: #333;
@@ -88,11 +88,7 @@ body {
   color: hsla(0, 0%, 100%, 0.75);
 }
 
-.container {
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-  flex-direction: column;
+.container {  
   background-color: white;
   padding-left: 1.125rem;
   padding-right: 1.125rem;
@@ -112,6 +108,7 @@ h2 {
 }
 
 .sedans {
+  align-items: start;
   background-color: hsl(31, 77%, 52%);
   border-radius: 3% 3% 0 0;
   padding-top: 5rem;
@@ -123,6 +120,7 @@ h2 {
 
 .suvs {
   background-color: hsl(184, 100%, 22%);
+  align-items: start;
 }
 
 .suvs > .learn-more {
@@ -132,6 +130,7 @@ h2 {
 .luxury {
   background-color: hsl(179, 100%, 13%);
   border-radius: 0 0 3% 3%;
+  align-items: start;
 }
 
 .luxury > .learn-more {
