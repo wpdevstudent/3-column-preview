@@ -77,10 +77,10 @@ select {
 
 body {
 
-  display: flex;
+  /* display: flex;
   justify-content: center; 
   align-items: start;
-  flex-direction: column; 
+  flex-direction: column; */
   min-height: 100svh;
   font-size: 0.9375rem;
   background-color: #333;
@@ -89,6 +89,10 @@ body {
 }
 
 .container {
+  display: flex;
+  justify-content: center; 
+  align-items: start;
+  flex-direction: column;
   background-color: white;
   padding-left: 1.125rem;
   padding-right: 1.125rem;
