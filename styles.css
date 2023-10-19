@@ -160,8 +160,7 @@ a:link.learn-more {
 
   a:active.learn-more {
   color: white;
-  border: 1px solid white;
- /* background: none; */
+  border: 2px solid white;
 }
 
 p {
