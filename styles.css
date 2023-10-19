@@ -161,7 +161,7 @@ a.learn-more {
 a:active.learn-more {
   color: white;
   border: 1px solid white;
-  background-color: none;
+  background: none;
 }
 
 p {
