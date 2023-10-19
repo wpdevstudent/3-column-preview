@@ -167,6 +167,9 @@ p {
   flex-direction: column;
   justify-content: center;
 }
+a.attribution {
+  align-items: center;
+}
 
 @media (min-width: 768px) {
   .container {
