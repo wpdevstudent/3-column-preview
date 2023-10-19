@@ -75,12 +75,7 @@ select {
 
 /* End of Andy Bell's CSS Reset */
 
-body {
-
-  display: flex;
-  justify-content: center; 
-  align-items: start;
-  flex-direction: column;
+body {  
   min-height: 100svh;
   font-size: 0.9375rem;
   background-color: #333;
