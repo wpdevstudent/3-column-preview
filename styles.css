@@ -158,7 +158,7 @@ a.learn-more {
   text-decoration: none;
 } 
 
-.learn-more a:active {
+.learn-more > a:active {
   color: hsl(0, 0%, 95%);
   border: 1px solid hsl(0, 0%, 95%);
   background-color: green;
