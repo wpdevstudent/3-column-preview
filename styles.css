@@ -147,7 +147,7 @@ h2 {
   padding: 2.5rem;
 }
 
-a.learn-more {
+/* a.learn-more {
   padding: 0.725rem 1.5rem;
   border-radius: 1.5625rem;
   overflow: hidden;
@@ -156,10 +156,15 @@ a.learn-more {
   margin: 0 auto;
   border: none;
   text-decoration: none;
-}
+} */
 
 p {
   margin-bottom: 2rem;
+}
+
+.attribution {
+  display: flex:
+  justify-content: center;
 }
 
 @media (min-width: 768px) {
