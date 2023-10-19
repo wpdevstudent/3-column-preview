@@ -171,6 +171,9 @@ p {
   color: white;
   font-weight: 700;
   font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
