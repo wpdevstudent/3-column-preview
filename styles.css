@@ -165,12 +165,10 @@ p {
 
 .attribution {
   padding: 1rem;
-  text-align: center;
 }
 
 .attribution a {
   color: white;
- /* text-align: center; */
   font-weight: 700;
   font-size: 1.5rem;
 }
