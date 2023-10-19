@@ -158,8 +158,8 @@ a:link.learn-more {
   text-decoration: none;
 } 
 
-a:active.learn-more {
-  background-color: hsl(31, 77%, 52%);
+  a:active.learn-more {
+  /* background-color: hsl(31, 77%, 52%); */
   color: white;
   border: 1px solid white;
   background: none;
