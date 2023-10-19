@@ -167,9 +167,9 @@ footer {
   flex-direction: column;
   align-items: center;
 }
-/* .attribution > p {
+.attribution {
   align-items: center;
-} */
+}
 
 @media (min-width: 768px) {
   .container {
