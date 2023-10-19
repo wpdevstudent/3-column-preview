@@ -169,6 +169,8 @@ p {
 }
 
 .attribution a {
+  color: white;
+  text-align: center;
   font-weight: strong;
   font-size: 1.5rem;
 }
