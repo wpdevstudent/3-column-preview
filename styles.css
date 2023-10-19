@@ -158,6 +158,11 @@ a.learn-more {
   text-decoration: none;
 } 
 
+a:active {
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+}
+
 p {
   margin-bottom: 2rem;
 }
